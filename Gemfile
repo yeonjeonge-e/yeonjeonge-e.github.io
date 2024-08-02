@@ -5,7 +5,7 @@ gem 'rexml'
 gem 'tzinfo-data'
 
 group :jekyll_plugins do
-  gem 'jekyll-feed', '0.15.1'
+  gem 'jekyll-feed', '0.17.0'
   gem 'jekyll-seo-tag', '2.7.0'
   gem 'jekyll-sitemap', '~> 1.4'
   gem 'jekyll-theme-chirpy'
