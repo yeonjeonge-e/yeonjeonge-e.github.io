@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: yeonjeong's TIL # the main title
 
-tagline: FrontEnd Developer # it will display as the subtitle
+tagline: FrontEndqq Developer # it will display as the subtitle
 
 description:
   >- # "used by seo meta and the atom feed"라고 나옵니다. 저는 설정을 그대로 두었습니다.
@@ -99,7 +99,7 @@ theme_mode: # [light | dark]
 cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/img/haru.jpg"
+avatar: /assets/img/profile.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
