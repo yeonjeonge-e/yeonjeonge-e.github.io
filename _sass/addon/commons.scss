@@ -1094,10 +1094,14 @@ search {
   width: 100%;
   z-index: 1;
 
-  @at-root [#{$sidebar-display}] & {
-    display: block !important;
+  // 중첩된 규칙을 & {}로 감싸기
+  & {
+    @at-root [#{$sidebar-display}] & {
+      display: block !important;
+    }
   }
 }
+
 
 /* --- basic wrappers --- */
 

@@ -54,8 +54,13 @@ html {
     @extend %code-snippet-bg;
   }
 
-  overflow: auto;
-  padding-bottom: 0.75rem;
+  // Sass Deprecation Warnings:
+  // 중첩된 규칙을 & {}로 감싸기
+  & {
+    overflow: auto;
+    padding-bottom: 0.75rem;
+  }
+
 
   pre {
     margin-bottom: 0;

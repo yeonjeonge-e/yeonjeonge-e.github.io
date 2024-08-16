@@ -99,11 +99,14 @@
   .dark {
     display: none;
   }
-
-  /* Categories */
-  --categories-border: rgba(0, 0, 0, 0.125);
-  --categories-hover-bg: var(--btn-border-color);
-  --categories-icon-hover-color: darkslategray;
+  
+  // 중첩된 규칙을 & {}로 감싸기
+  & {
+    /* Categories */
+    --categories-border: rgba(0, 0, 0, 0.125);
+    --categories-hover-bg: var(--btn-border-color);
+    --categories-icon-hover-color: darkslategray;
+  }
 
   /* Archive */
   --timeline-color: rgba(0, 0, 0, 0.075);
