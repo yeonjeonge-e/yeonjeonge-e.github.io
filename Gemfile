@@ -16,3 +16,5 @@ group :jekyll_plugins do
   gem 'jekyll-seo-tag', '2.7.0'  # 호환 가능한 최신 버전으로 업데이트
   gem 'jekyll-sitemap', '~> 1.4' # Jekyll 4.x와 호환되는 최신 버전
 end
+
+gem "html-proofer", "~> 5.0"

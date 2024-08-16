@@ -1,12 +1,10 @@
 # Set default behavior to automatically normalize line endings.
 * text=auto
 
-# Force bash scripts to always use LF line endings so that if a repo is accessed
-# in Unix via a file share from Windows, the scripts will work.
+# Force bash scripts to always use LF line endings
 *.sh text eol=lf
 
-# Force batch scripts to always use CRLF line endings so that if a repo is accessed
-# in Windows via a file share from Linux, the scripts will work.
+# Force batch scripts to always use CRLF line endings
 *.{cmd,[cC][mM][dD]} text eol=crlf
 *.{bat,[bB][aA][tT]} text eol=crlf
 
@@ -14,3 +12,22 @@
 *.png binary
 *.jpg binary
 *.ico binary
+
+# Ensure YAML files use LF line endings
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Ensure Ruby files use LF line endings
+*.rb text eol=lf
+*.gemspec text eol=lf
+
+# Ensure Markdown files use LF line endings
+*.md text eol=lf
+
+# Ensure all other text files use LF line endings
+*.txt text eol=lf
+*.csv text eol=lf
+
+# Jekyll and HTML related files
+*.html text eol=lf
+*.scss text eol=lf
