@@ -73,7 +73,7 @@
   {% endunless %}
 
   <!-- Theme style -->
-  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/:THEME.css' | replace: ':THEME', site.theme | relative_url }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/{{ site.theme }}.css">
 
   <!-- Web Font -->
   <link rel="stylesheet" href="{{ site.baseurl }}{{ site.data.origin[type].webfonts | relative_url }}">
