@@ -74,9 +74,18 @@ layout: compress
       {% include_cached notification.html lang=lang %}
     {% endif %}
 
-    <!-- JavaScripts -->
-    {% include js-selector.html lang=lang %}
+<!-- GLightbox Script -->
+<script src="{{ site.baseurl }}/assets/lib/glightbox/glightbox.min.js"></script>
 
-    {% include_cached search-loader.html lang=lang %}
+<!-- GLightbox Initialization -->
+<script>
+  const lightbox = GLightbox({
+    touchNavigation: true,
+    loop: true,
+    autoplayVideos: true
+  });
+</script>
+
+{% include js-selector.html lang=lang %}
   </body>
 </html>
