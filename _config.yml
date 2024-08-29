@@ -3,6 +3,9 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 
+# The base URL of your site
+baseurl: ""
+
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
@@ -130,6 +133,10 @@ comments:
     lang: # optional, default to the value of `site.lang`
     reactions_enabled: # optional, default to the value of `1`
 
+# Configuration for files to include in the build
+include:
+  - _app # Include the _app directory in the site build despite it being in .gitignore
+
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
@@ -149,9 +156,6 @@ pwa:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
 paginate: 10
-
-# The base URL of your site
-baseurl: "/yeonjeonge-e.github.io"
 
 # ------------ The following options are not recommended to be modified ------------------
 
