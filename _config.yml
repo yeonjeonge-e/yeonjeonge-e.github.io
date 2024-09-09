@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: yeonjeong's TIL # the main title
 
-tagline: FrontEndqq Developer # it will display as the subtitle
+tagline: FrontEnd Developer # it will display as the subtitle
 
 description:
   >- # "used by seo meta and the atom feed"라고 나옵니다. 저는 설정을 그대로 두었습니다.
@@ -37,7 +37,7 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: yeonjeong_e
+  name: yeonjeonge-e
   email: kkso10043@naver.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
