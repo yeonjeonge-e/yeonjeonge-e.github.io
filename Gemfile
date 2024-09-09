@@ -17,4 +17,4 @@ group :jekyll_plugins do
   gem 'jekyll-sitemap', '~> 1.4' # Jekyll 4.x와 호환되는 최신 버전
 end
 
-gem "html-proofer", "~> 5.0"
+gem 'html-proofer'

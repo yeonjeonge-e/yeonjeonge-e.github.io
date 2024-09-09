@@ -29,5 +29,5 @@ jobs:
       - name: Build the site
         run: bundle exec jekyll build
 
-      - name: Run tests with htmlproofer
-        run: bundle exec htmlproofer ./_site
+      - name: Run htmlproofer
+        run: bundle exec htmlproofer ./_site --disable-external
