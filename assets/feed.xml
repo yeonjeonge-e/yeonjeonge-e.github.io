@@ -1,6 +1,6 @@
 ---
 layout: compress
-permalink: /feed.xml
+permalink: /assets/feed.xml  # 경로 수정
 # Atom Feed, reference: https://validator.w3.org/feed/docs/atom.html
 ---
 
